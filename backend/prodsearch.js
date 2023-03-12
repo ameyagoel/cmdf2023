@@ -15,6 +15,7 @@ const fs = require("fs");
 var getURL = 'https://www.amazon.ca/Gillette-Venus-ComfortGlide-Scented-Refills/dp/B001JQLNFA/ref=sr_1_31?crid=2Z7OE9Y35QEPR&keywords=razor&qid=1678601115&s=beauty&sprefix=raz%2Cbeauty%2C648&sr=1-31';
 var searchLimit = 4;
 var searchBar = 'razor';
+var title = "";
 
 // split url string according to the character '/' to extract individual strings to an array
 const splitURL = function (a) {
@@ -78,6 +79,7 @@ const extractASIN = function (a) {
 const extractTitle = function() {
   let json = fs.readFileSync('product.json');
   let obj = JSON.parse(json);
+  title = obj.responseData.title;
   return obj.responseData.title;
 };
 
@@ -133,3 +135,4 @@ console.log(sortArr());
 console.log(extractTitleArray());
 console.log(extractPrices());
 console.log(extractImgURL());
+module.exports = { extractTitle }
