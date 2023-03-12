@@ -1,0 +1,37 @@
+
+
+.boxLanding {
+    background-Image: url(../assets/bg1.png);
+    background-size: cover;
+}
+
+.justpeachy  {
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 91px;
+    background: -webkit-linear-gradient(180deg, #F0A395 0%, #F7C5D6 75.89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* justpeachy */
+}
+
+
+.peach1 {
+    height: 13rem;
+    width: auto;
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+
+
+
