@@ -5,11 +5,14 @@ import { AddButton } from './components/AddButton';
 import { ResourceCard } from './components/ResourceCard';
 import { SummaryBox } from './components/SummaryBox';
 import { TotalSavingTextBox } from './components/TotalSavingTextBox';
+import Landing from './components/landing';
 
 function App() {
   return (
     <div >
-      <TotalSavingTextBox total={12.59} />
+      <Landing></Landing>
+      {/* <ScrollBar> </ScrollBar>
+      <TotalSavingTextBox total={12.59} /> */}
     </div>
   );
 }

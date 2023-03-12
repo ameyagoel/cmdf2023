@@ -2,26 +2,37 @@ import React, {useState} from "react";
 import styled from "styled-components";
 
 const Input = styled.input`
-  font-size: 18px;
-  padding: 10px;
-  margin: 10px;
-  background: papayawhip;
-  border: none;
-  border-radius: 3px;
-  width: 40em;
+  font-size: 1.2rem;
+  padding: .8rem;
+  
+  margin-top: 6rem;
+  border-color: #CC719E;
+  border-radius: 3rem;
+  width: 28rem;
 `
 
 const StyledButton = styled.button`
-  border-color: #CC719E;
+  border: none;
+  width: 6rem;
   background-color: #CC719E;
-  font-size: 32px;
+  font-size: 1.5rem;
+  font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+  padding: .8rem;
   color: white;
-  border-radius: 30px;
+  border-radius: 3rem;  
+  margin-left: 1rem;
+  &:hover {
+    background-color: #F7C5D6;
+    color: #fff;
+  }
 `;
 
 const Wrapper = styled.section`
-    padding: 4em;
-    background: black;
+    padding: 0em;
+    
+    background-color: transparent
 `
 
 export const InputBar = () => {
@@ -43,7 +54,7 @@ export const InputBar = () => {
         onChange={(e) => {setUrl(e.target.value)}}
             />
         <StyledButton onClick={handleClick}>
-            Go
+            GO
         </StyledButton>
             </Wrapper>
         </div>
