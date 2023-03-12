@@ -40,6 +40,8 @@ export const InputBar = () => {
     // get amzn url from here
     const [url, setUrl] = useState("");
 
+
+    async function handleClick() {
     const handleClick = () => {
 
         // <Link
@@ -50,8 +52,16 @@ export const InputBar = () => {
         // ></Link>
         return (
             // this is where we would send the amzn url to the backend
-            console.log(url)
-        )
+    //   await fetch(`http://localhost:3005/api/keyword`)
+    //   .then((res) => res.json())
+    //   .then((data) => console.log(data)) // Sets variable data to fetched JSON data
+    //   .catch((err) => console.log(err));
+      
+      await fetch(`http://localhost:3005/api/search`)
+      .then((res) => res.json())
+      .then((data) => console.log(data)) // Sets variable data to fetched JSON data
+      .catch((err) => console.log(err));  
+  
     }
     
     return(

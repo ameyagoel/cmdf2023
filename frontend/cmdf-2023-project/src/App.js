@@ -22,9 +22,6 @@ function App() {
       <Landing></Landing>
       <Summary></Summary>
       <Resources></Resources>
-
-
-      
     </div>
   );
 }
