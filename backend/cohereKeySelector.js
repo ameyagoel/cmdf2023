@@ -1,6 +1,30 @@
+
 const cohere = require("cohere-ai");
+const prodsearch = require("./prodsearch");
+
+// calls prodsearch function
+var title = prodsearch.extractTitle();
+
 cohere.init('KuUGZnMPt1xOu89Lsb9s72Z3TG5Bh8Nff3fG986T');
 
+async function getData(url) {
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error(error);
+    }
+  }
+(async () => {
+    const response = await cohere.classify({
+      model: 'f1aeace0-4292-466e-9695-0a04c16948da-ft',
+      inputs: [title]
+    });
+    console.log(title);
+    console.log(JSON.stringify(response.body.classifications[0].prediction));
+    return JSON.stringify(response.body.classifications[0].prediction);
+  })();
 
 let productExamples = [
 ["Razor", "Gillette Venus Extra Smooth Swirl Women's Razor - 1 Handle + 4 Refills, Purple"],
