@@ -1,0 +1,34 @@
+{
+    "requestSuccessful": true,
+    "requestInfo": {
+        "domain": "ca",
+        "asin": "B001JQLNFA"
+    },
+    "responseErrors": null,
+    "responseData": {
+        "asin": "B001JQLNFA",
+        "soldByAmazonPrice": 13.99,
+        "buyBoxPrice": 13.99,
+        "buyBoxSellerId": "A3DWYIK6Y9EEQB",
+        "buyBoxIsFba": true,
+        "buyBoxIsAmazon": true,
+        "buyBoxIsPrime": true,
+        "buyBoxLocalAvailabilityMessage": "In Stock.",
+        "buyBoxMinOrderQuantity": 1,
+        "buyBoxMaxOrderQuantity": 10,
+        "priceCoupon": {
+            "subscribeAndSave": {
+                "discountType": "percentage discount",
+                "value": -5
+            }
+        },
+        "title": "Gillette Venus ComfortGlide White Tea Women's Razor - 1 Handle + 2 Refills",
+        "availabilityAmazon": "in stock",
+        "allEanList": [
+            "0885376729706",
+            "0047400300415",
+            "0885721276572"
+        ],
+        "hasReviews": true
+    }
+}

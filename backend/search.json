@@ -1,0 +1,1200 @@
+{
+    "page": 1,
+    "pageCount": 48,
+    "products": [
+        {
+            "name": "Gillette Sensor3 Men's Disposable Razor, 4 Razors (packaging may vary)",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81Du0ODrobL._AC_UL320_.jpg",
+                "description": "Gillette Sensor3 Men's Disposable Razor, 4 Razors (packaging may vary)"
+            },
+            "totalReviews": 9007,
+            "rating": 4.45,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 7.97,
+                "priceFraction": "97",
+                "beforePrice": null
+            },
+            "asin": "B000YK46HO",
+            "url": "https://www.amazon.com/dp/B000YK46HO",
+            "position": 1
+        },
+        {
+            "name": "Gillette Venus Disposable Razors For Women, Venus Sensitive Womens Razors, 3 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71-OitCVIiS._AC_UL320_.jpg",
+                "description": "Gillette Venus Disposable Razors For Women, Venus Sensitive Womens Razors, 3 Count"
+            },
+            "totalReviews": 2100,
+            "rating": 4.55,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 8.97,
+                "priceFraction": "97",
+                "beforePrice": 10.49
+            },
+            "asin": "B003X5EJBU",
+            "url": "https://www.amazon.com/dp/B003X5EJBU",
+            "position": 2
+        },
+        {
+            "name": "Skintimate Disposable Razor for Women, Sensitive Skin Unscented Four Blade Razor, 4 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71fWuPo0R1L._AC_UL320_.jpg",
+                "description": "Skintimate Disposable Razor for Women, Sensitive Skin Unscented Four Blade Razor, 4 Count"
+            },
+            "totalReviews": 796,
+            "rating": 4.35,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 5.98,
+                "priceFraction": "98",
+                "beforePrice": 6.99
+            },
+            "asin": "B07WSRZ7FF",
+            "url": "https://www.amazon.com/dp/B07WSRZ7FF",
+            "position": 3
+        },
+        {
+            "name": "Gillette Fusion5 Mens Razor, Includes 1 Handle, 7 Razor Blade Refills",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/91WciuTw43L._AC_UL320_.jpg",
+                "description": "Gillette Fusion5 Mens Razor, Includes 1 Handle, 7 Razor Blade Refills"
+            },
+            "totalReviews": 1633,
+            "rating": 4.75,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 29.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B086XZMJZD",
+            "url": "https://www.amazon.com/dp/B086XZMJZD",
+            "position": 6
+        },
+        {
+            "name": "Schick Hydro Silk Touch-Up Multipurpose Exfoliating Face Razor for Women Dermaplaning Tool, Eyebrow Razor, and Facial Razor with Precision Cover, 3 Count (Packaging May Vary)",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71DWrr20pIL._AC_UL320_.jpg",
+                "description": "Schick Hydro Silk Touch-Up Multipurpose Exfoliating Face Razor for Women Dermaplaning Tool, Eyebrow Razor, and Facial Razo..."
+            },
+            "totalReviews": 12869,
+            "rating": 4.55,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 6.97,
+                "priceFraction": "97",
+                "beforePrice": null
+            },
+            "asin": "B0787GLBMV",
+            "url": "https://www.amazon.com/dp/B0787GLBMV",
+            "position": 7
+        },
+        {
+            "name": "Gillette ProGlide Mens Razor, 1 Razor Handle, 3 Razor Blade Refills",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81Iz-RVOnsL._AC_UL320_.jpg",
+                "description": "Gillette ProGlide Mens Razor, 1 Razor Handle, 3 Razor Blade Refills"
+            },
+            "totalReviews": 2687,
+            "rating": 4.75,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 19.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B08RV1Q9D6",
+            "url": "https://www.amazon.com/dp/B08RV1Q9D6",
+            "position": 8
+        },
+        {
+            "name": "Gillette Sensor3 Sensitive Men's Disposable Razor, 4 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81sFDM1sLhL._AC_UL320_.jpg",
+                "description": "Gillette Sensor3 Sensitive Men's Disposable Razor, 4 Count"
+            },
+            "totalReviews": 6693,
+            "rating": 4.35,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 7.97,
+                "priceFraction": "97",
+                "beforePrice": null
+            },
+            "asin": "B0001LQGPG",
+            "url": "https://www.amazon.com/dp/B0001LQGPG",
+            "position": 9
+        },
+        {
+            "name": "Gillette Venus Tropical Women's Disposable Razor - Single Package of 3 Razors",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81QQb+SHlEL._AC_UL320_.jpg",
+                "description": "Gillette Venus Tropical Women's Disposable Razor - Single Package of 3 Razors"
+            },
+            "totalReviews": 967,
+            "rating": 4.65,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 8.97,
+                "priceFraction": "97",
+                "beforePrice": null
+            },
+            "asin": "B0037LOPQY",
+            "url": "https://www.amazon.com/dp/B0037LOPQY",
+            "position": 10
+        },
+        {
+            "name": "Long Handle Double Edge Safety Razor Men - Butterfly Open Razor with 10 Japanese Stainless Steel Double Edge Safety Razor Blades - Close, Clean Shaving Razor for Men - Mens razor",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71KnRXlWoZL._AC_UL320_.jpg",
+                "description": "Long Handle Double Edge Safety Razor Men - Butterfly Open Razor with 10 Japanese Stainless Steel Double Edge Safety Razor ..."
+            },
+            "totalReviews": 21475,
+            "rating": 4.35,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 26.99,
+                "priceFraction": "99",
+                "beforePrice": 34.99
+            },
+            "asin": "B07Q2DJ921",
+            "url": "https://www.amazon.com/dp/B07Q2DJ921",
+            "position": 11
+        },
+        {
+            "name": "Skintimate Disposable Razor for Women, Sensitive Skin Unscented Two Blade Razor, 12 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81OMXXunI-L._AC_UL320_.jpg",
+                "description": "Skintimate Disposable Razor for Women, Sensitive Skin Unscented Two Blade Razor, 12 Count"
+            },
+            "totalReviews": 820,
+            "rating": 4.35,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 6.99,
+                "priceFraction": "99",
+                "beforePrice": 7.99
+            },
+            "asin": "B07L6K4822",
+            "url": "https://www.amazon.com/dp/B07L6K4822",
+            "position": 12
+        },
+        {
+            "name": "JOY The Pink One, 1 Razor and 2 Cartridges",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71wLlSfzFkL._AC_UL320_.jpg",
+                "description": "JOY The Pink One, 1 Razor and 2 Cartridges"
+            },
+            "totalReviews": 2293,
+            "rating": 4.55,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 12.47,
+                "priceFraction": "47",
+                "beforePrice": null
+            },
+            "asin": "B07PPQFJK2",
+            "url": "https://www.amazon.com/dp/B07PPQFJK2",
+            "position": 13
+        },
+        {
+            "name": "Schick Hydro Silk Womens Disposable Razor, Pack of 3 Disposable Razors",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81vX2g3KadL._AC_UL320_.jpg",
+                "description": "Schick Hydro Silk Womens Disposable Razor, Pack of 3 Disposable Razors"
+            },
+            "totalReviews": 4094,
+            "rating": 4.55,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 11.99,
+                "priceFraction": "99",
+                "beforePrice": 13.97
+            },
+            "asin": "B00AHF1GTM",
+            "url": "https://www.amazon.com/dp/B00AHF1GTM",
+            "position": 14
+        },
+        {
+            "name": "BIC Razor Hybrid3 3-Blade 6-Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71eIQ5BveBL._AC_UL320_.jpg",
+                "description": "BIC Razor Hybrid3 3-Blade 6-Count"
+            },
+            "totalReviews": 9727,
+            "rating": 4.25,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 8.49,
+                "priceFraction": "49",
+                "beforePrice": null
+            },
+            "asin": "B00D1G8XA4",
+            "url": "https://www.amazon.com/dp/B00D1G8XA4",
+            "position": 15
+        },
+        {
+            "name": "Gillette Mach3 Sensitive Men’s Disposable Razors, 3 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81g4lX1pMbL._AC_UL320_.jpg",
+                "description": "Gillette Mach3 Sensitive Men’s Disposable Razors, 3 Count"
+            },
+            "totalReviews": 6957,
+            "rating": 4.55,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 8.97,
+                "priceFraction": "97",
+                "beforePrice": 9.97
+            },
+            "asin": "B0016A1DQ8",
+            "url": "https://www.amazon.com/dp/B0016A1DQ8",
+            "position": 16
+        },
+        {
+            "name": "BIC Soleil Color Collection 3 Blade Razors, Assorted Colors, 14 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/816dwKfiLtL._AC_UL320_.jpg",
+                "description": "BIC Soleil Color Collection 3 Blade Razors, Assorted Colors, 14 Count"
+            },
+            "totalReviews": 12543,
+            "rating": 4.65,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 19.22,
+                "priceFraction": "22",
+                "beforePrice": null
+            },
+            "asin": "B0787JNN97",
+            "url": "https://www.amazon.com/dp/B0787JNN97",
+            "position": 17
+        },
+        {
+            "name": "Schick Intutition Naturals Sensitive Care Womens Razor with Aloe, Includes 2 Womens Razor Refills",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71wFb6dis1L._AC_UL320_.jpg",
+                "description": "Schick Intutition Naturals Sensitive Care Womens Razor with Aloe, Includes 2 Womens Razor Refills"
+            },
+            "totalReviews": 2383,
+            "rating": 4.45,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 11.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B004CCSKCW",
+            "url": "https://www.amazon.com/dp/B004CCSKCW",
+            "position": 18
+        },
+        {
+            "name": "Schick Xtreme 4 Blade Disposable Razor for Men with Longer Lasting Blades, Pack of 3",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71wo6MrlytL._AC_UL320_.jpg",
+                "description": "Schick Xtreme 4 Blade Disposable Razor for Men with Longer Lasting Blades, Pack of 3"
+            },
+            "totalReviews": 3278,
+            "rating": 4.25,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 6.99,
+                "priceFraction": "99",
+                "beforePrice": 7.99
+            },
+            "asin": "B078JF3JSX",
+            "url": "https://www.amazon.com/dp/B078JF3JSX",
+            "position": 19
+        },
+        {
+            "name": "100 BLADES + Facón Professional Classic Straight Edge Barber Razor - Salon Quality Cut Throat Shavette",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71JTp1bcmXL._AC_UL320_.jpg",
+                "description": "100 BLADES + Facón Professional Classic Straight Edge Barber Razor - Salon Quality Cut Throat Shavette"
+            },
+            "totalReviews": 7871,
+            "rating": 4.35,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 29.95,
+                "priceFraction": "95",
+                "beforePrice": null
+            },
+            "asin": "B0777Z2V2X",
+            "url": "https://www.amazon.com/dp/B0777Z2V2X",
+            "position": 20
+        },
+        {
+            "name": "Gillette Venus ComfortGlide White Tea Women's Razor - 1 Handle + 2 Refills",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71kGUbTheML._AC_UL320_.jpg",
+                "description": "Gillette Venus ComfortGlide White Tea Women's Razor - 1 Handle + 2 Refills"
+            },
+            "totalReviews": 592,
+            "rating": 4.55,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 13.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B001JQLNFA",
+            "url": "https://www.amazon.com/dp/B001JQLNFA",
+            "position": 21
+        },
+        {
+            "name": "Schick Hydro Skin Comfort Dry Skin 5 Blade Razor for Men, 1 Handle and 2 Refills",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71XIdk1ZMcL._AC_UL320_.jpg",
+                "description": "Schick Hydro Skin Comfort Dry Skin 5 Blade Razor for Men, 1 Handle and 2 Refills"
+            },
+            "totalReviews": 7903,
+            "rating": 4.55,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 11.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B0781VC24S",
+            "url": "https://www.amazon.com/dp/B0781VC24S",
+            "position": 22
+        },
+        {
+            "name": "Gillette Fusion5 Power Men's Razor",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81N5ECTqD9L._AC_UL320_.jpg",
+                "description": "Gillette Fusion5 Power Men's Razor"
+            },
+            "totalReviews": 67543,
+            "rating": 4.65,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 13.99,
+                "priceFraction": "99",
+                "beforePrice": 14.99
+            },
+            "asin": "B07CYH1Y8M",
+            "url": "https://www.amazon.com/dp/B07CYH1Y8M",
+            "position": 23
+        },
+        {
+            "name": "Schick Hydro Skin Comfort Sensitive Skin 5 Blade Razor for Men, 1 Handle and 6 Refills",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81E58UJEgGL._AC_UL320_.jpg",
+                "description": "Schick Hydro Skin Comfort Sensitive Skin 5 Blade Razor for Men, 1 Handle and 6 Refills"
+            },
+            "totalReviews": 3870,
+            "rating": 4.45,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 21.49,
+                "priceFraction": "49",
+                "beforePrice": null
+            },
+            "asin": "B08KZ4SHG7",
+            "url": "https://www.amazon.com/dp/B08KZ4SHG7",
+            "position": 24
+        },
+        {
+            "name": "Gillette Sensor2 Men's Disposable Razors, 18 count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/51eazmKRO8L._AC_UL320_.jpg",
+                "description": "Gillette Sensor2 Men's Disposable Razors, 18 count"
+            },
+            "totalReviews": 5235,
+            "rating": 4.45,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 14.99,
+                "priceFraction": "99",
+                "beforePrice": 15.99
+            },
+            "asin": "B005FVBCI8",
+            "url": "https://www.amazon.com/dp/B005FVBCI8",
+            "position": 25
+        },
+        {
+            "name": "Quattro for Women razor Value Pack, includes 7 Refills, 1 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/91Js3n0OpFL._AC_UL320_.jpg",
+                "description": "Quattro for Women razor Value Pack, includes 7 Refills, 1 Count"
+            },
+            "totalReviews": 299,
+            "rating": 4.65,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 19.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B07WWZH6MT",
+            "url": "https://www.amazon.com/dp/B07WWZH6MT",
+            "position": 26
+        },
+        {
+            "name": "Intuition Schick Razor for Women, 5 Refill Value Pack, Island Berry & Sensitive, Island Berry, 1 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/717JxOct7FL._AC_UL320_.jpg",
+                "description": "Intuition Schick Razor for Women, 5 Refill Value Pack, Island Berry & Sensitive, Island Berry, 1 Count"
+            },
+            "totalReviews": 14496,
+            "rating": 4.85,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 19.98,
+                "priceFraction": "98",
+                "beforePrice": null
+            },
+            "asin": "B084DWKTT7",
+            "url": "https://www.amazon.com/dp/B084DWKTT7",
+            "position": 27
+        },
+        {
+            "name": "Gillette Venus Snap Cosmo Pink with Extra Smooth Womens On-the-Go Razor - 1 handle + 1 Refill + Case",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81RoYW2DI1L._AC_UL320_.jpg",
+                "description": "Gillette Venus Snap Cosmo Pink with Extra Smooth Womens On-the-Go Razor - 1 handle + 1 Refill + Case"
+            },
+            "totalReviews": 589,
+            "rating": 4.75,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 9.99,
+                "priceFraction": "99",
+                "beforePrice": 11.99
+            },
+            "asin": "B00I5H5Z1O",
+            "url": "https://www.amazon.com/dp/B00I5H5Z1O",
+            "position": 28
+        },
+        {
+            "name": "Double Edge Safety Razor for Women, Safety Razor with 5 Blades, Women Razor with a Delicate Box, Fits All Double Edge Razor Blades,Free of Plastic (Rose Gold)",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81lv0kw40mL._AC_UL320_.jpg",
+                "description": "Double Edge Safety Razor for Women, Safety Razor with 5 Blades, Women Razor with a Delicate Box, Fits All Double Edge Razo..."
+            },
+            "totalReviews": 5631,
+            "rating": 4.45,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 25.49,
+                "priceFraction": "49",
+                "beforePrice": 29.99
+            },
+            "asin": "B07YFG4SLT",
+            "url": "https://www.amazon.com/dp/B07YFG4SLT",
+            "position": 29
+        },
+        {
+            "name": "Gillette Venus for Bikini Pubic Hair and Skin, Womens Razors, 4 Razor Blade Refills for Intimate Grooming",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71Dtv8GLNLL._AC_UL320_.jpg",
+                "description": "Gillette Venus for Bikini Pubic Hair and Skin, Womens Razors, 4 Razor Blade Refills for Intimate Grooming"
+            },
+            "totalReviews": 2753,
+            "rating": 4.65,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 19.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B08JHVGTRR",
+            "url": "https://www.amazon.com/dp/B08JHVGTRR",
+            "position": 30
+        },
+        {
+            "name": "Gillette Sensor3 Men’s Disposable Razors, 8 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81Wf-l1ajjL._AC_UL320_.jpg",
+                "description": "Gillette Sensor3 Men’s Disposable Razors, 8 Count"
+            },
+            "totalReviews": 406,
+            "rating": 4.15,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 9.99,
+                "priceFraction": "99",
+                "beforePrice": 10.99
+            },
+            "asin": "B06W9NHGRJ",
+            "url": "https://www.amazon.com/dp/B06W9NHGRJ",
+            "position": 31
+        },
+        {
+            "name": "Gillette Venus for Bikini Pubic Hair and Skin, Womens Razors, 1 Venus Razor Bikini Trimmer, 3 Razor Blade Refills for Intimate Grooming",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71CRdvv8J4L._AC_UL320_.jpg",
+                "description": "Gillette Venus for Bikini Pubic Hair and Skin, Womens Razors, 1 Venus Razor Bikini Trimmer, 3 Razor Blade Refills for Inti..."
+            },
+            "totalReviews": 475,
+            "rating": 4.15,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 17.97,
+                "priceFraction": "97",
+                "beforePrice": null
+            },
+            "asin": "B09NJPDMYZ",
+            "url": "https://www.amazon.com/dp/B09NJPDMYZ",
+            "position": 32
+        },
+        {
+            "name": "Joy Five Bladed Women's Razor Blade Refills, 4 count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71FulkDNmfL._AC_UL320_.jpg",
+                "description": "Joy Five Bladed Women's Razor Blade Refills, 4 count"
+            },
+            "totalReviews": 9376,
+            "rating": 4.85,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 12.49,
+                "priceFraction": "49",
+                "beforePrice": null
+            },
+            "asin": "B07PPR17QZ",
+            "url": "https://www.amazon.com/dp/B07PPR17QZ",
+            "position": 33
+        },
+        {
+            "name": "Gillette Mach3 Mens Razor Blade Refills, 15 Count, Designed for Sensitive Skin",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81g-3Zb6QJL._AC_UL320_.jpg",
+                "description": "Gillette Mach3 Mens Razor Blade Refills, 15 Count, Designed for Sensitive Skin"
+            },
+            "totalReviews": 32990,
+            "rating": 4.75,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 37.97,
+                "priceFraction": "97",
+                "beforePrice": 39.97
+            },
+            "asin": "B0725BK81G",
+            "url": "https://www.amazon.com/dp/B0725BK81G",
+            "position": 34
+        },
+        {
+            "name": "Gillette Mach3 Men's Razor, 1 Handle with 3 Cartridges",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/817rFqTk9VL._AC_UL320_.jpg",
+                "description": "Gillette Mach3 Men's Razor, 1 Handle with 3 Cartridges"
+            },
+            "totalReviews": 965,
+            "rating": 4.55,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 14.97,
+                "priceFraction": "97",
+                "beforePrice": 16.99
+            },
+            "asin": "B07CCD7WXL",
+            "url": "https://www.amazon.com/dp/B07CCD7WXL",
+            "position": 35
+        },
+        {
+            "name": "Gillette Daisy 2 Women's Disposable Razors, 18 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81Jh6nWDenL._AC_UL320_.jpg",
+                "description": "Gillette Daisy 2 Women's Disposable Razors, 18 Count"
+            },
+            "totalReviews": 448,
+            "rating": 4.55,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 14.97,
+                "priceFraction": "97",
+                "beforePrice": null
+            },
+            "asin": "B005FUFPGO",
+            "url": "https://www.amazon.com/dp/B005FUFPGO",
+            "position": 36
+        },
+        {
+            "name": "BIC Silky Touch Women's Twin Blade Disposable Razor, 40 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/912gy7R5--L._AC_UL320_.jpg",
+                "description": "BIC Silky Touch Women's Twin Blade Disposable Razor, 40 Count"
+            },
+            "totalReviews": 12249,
+            "rating": 4.75,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 19.96,
+                "priceFraction": "96",
+                "beforePrice": null
+            },
+            "asin": "B0787K2Y6P",
+            "url": "https://www.amazon.com/dp/B0787K2Y6P",
+            "position": 37
+        },
+        {
+            "name": "Schick Xtreme 3 Duocomfort, Men disposable Razors with premium Handle and 3 Flexible Blades, 4 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71BNOsSahVL._AC_UL320_.jpg",
+                "description": "Schick Xtreme 3 Duocomfort, Men disposable Razors with premium Handle and 3 Flexible Blades, 4 Count"
+            },
+            "totalReviews": 128,
+            "rating": 4.55,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 5.98,
+                "priceFraction": "98",
+                "beforePrice": 6.99
+            },
+            "asin": "B07WRMRPD6",
+            "url": "https://www.amazon.com/dp/B07WRMRPD6",
+            "position": 38
+        },
+        {
+            "name": "Venus ComfortGlide White Tea Scented Women's Razor Refills, 6 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81UVBPlnbbL._AC_UL320_.jpg",
+                "description": "Venus ComfortGlide White Tea Scented Women's Razor Refills, 6 Count"
+            },
+            "totalReviews": 905,
+            "rating": 4.75,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 24.99,
+                "priceFraction": "99",
+                "beforePrice": 27.99
+            },
+            "asin": "B003EMNITQ",
+            "url": "https://www.amazon.com/dp/B003EMNITQ",
+            "position": 39
+        },
+        {
+            "name": "Gillette Venus ComfortGlide with Olay Coconut Womens Razor Handle + 3 Blade Refills",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81XPuMQkkzL._AC_UL320_.jpg",
+                "description": "Gillette Venus ComfortGlide with Olay Coconut Womens Razor Handle + 3 Blade Refills"
+            },
+            "totalReviews": 326,
+            "rating": 4.55,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 19.39,
+                "priceFraction": "39",
+                "beforePrice": null
+            },
+            "asin": "B08RTVCLJ5",
+            "url": "https://www.amazon.com/dp/B08RTVCLJ5",
+            "position": 40
+        },
+        {
+            "name": "Gillette Fusion5 Men's Razor Blade Refill Cartridges, 4 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/813E+p+tOVL._AC_UL320_.jpg",
+                "description": "Gillette Fusion5 Men's Razor Blade Refill Cartridges, 4 Count"
+            },
+            "totalReviews": 2193,
+            "rating": 4.75,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 19.97,
+                "priceFraction": "97",
+                "beforePrice": null
+            },
+            "asin": "B07CQ49SWJ",
+            "url": "https://www.amazon.com/dp/B07CQ49SWJ",
+            "position": 41
+        },
+        {
+            "name": "Schick Hydro Silk Womens Razor Refills, Pack of 4 Shower Storable Razor Refills",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71FUi+zc-1L._AC_UL320_.jpg",
+                "description": "Schick Hydro Silk Womens Razor Refills, Pack of 4 Shower Storable Razor Refills"
+            },
+            "totalReviews": 3728,
+            "rating": 4.75,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 19.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B006DR2BQU",
+            "url": "https://www.amazon.com/dp/B006DR2BQU",
+            "position": 42
+        },
+        {
+            "name": "Derby Premium Double Edge Razor Blades, 100 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/51IE1RS9V7L._AC_UL320_.jpg",
+                "description": "Derby Premium Double Edge Razor Blades, 100 Count"
+            },
+            "totalReviews": 4095,
+            "rating": 4.45,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 12.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B01M1HF9M7",
+            "url": "https://www.amazon.com/dp/B01M1HF9M7",
+            "position": 43
+        },
+        {
+            "name": "Schick Intuition Sensitive Skin Womens Razor Refills with Vitamin E & Aloe, Pack of 3",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/61CBZZkP4pL._AC_UL320_.jpg",
+                "description": "Schick Intuition Sensitive Skin Womens Razor Refills with Vitamin E & Aloe, Pack of 3"
+            },
+            "totalReviews": 446,
+            "rating": 4.85,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 11.99,
+                "priceFraction": "99",
+                "beforePrice": 13.99
+            },
+            "asin": "B004CCP7XC",
+            "url": "https://www.amazon.com/dp/B004CCP7XC",
+            "position": 44
+        },
+        {
+            "name": "Gillette Venus Extra Smooth Swirl Women's Razor - 1 Handle + 4 Refills, Purple",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81uqGXr5WEL._AC_UL320_.jpg",
+                "description": "Gillette Venus Extra Smooth Swirl Women's Razor - 1 Handle + 4 Refills, Purple"
+            },
+            "totalReviews": 19,
+            "rating": 4.55,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 26.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B07MRV5H7S",
+            "url": "https://www.amazon.com/dp/B07MRV5H7S",
+            "position": 45
+        },
+        {
+            "name": "Schick Schick xtreme3 razor pack of 24, 1 count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/9140tcufGXL._AC_UL320_.jpg",
+                "description": "Schick Schick xtreme3 razor pack of 24, 1 count"
+            },
+            "totalReviews": 237,
+            "rating": 4.45,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 27,
+                "priceFraction": "00",
+                "beforePrice": 43.99
+            },
+            "asin": "B07D1YCX4Z",
+            "url": "https://www.amazon.com/dp/B07D1YCX4Z",
+            "position": 46
+        },
+        {
+            "name": "Eyebrow Razors,Eyebrow Trimmer,Facial Hair Trimmer with Precision Cover for Women and Men(20PCS)",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/61rxiASIoML._AC_UL320_.jpg",
+                "description": "Eyebrow Razors,Eyebrow Trimmer,Facial Hair Trimmer with Precision Cover for Women and Men(20PCS)"
+            },
+            "totalReviews": 172,
+            "rating": 4.05,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 9.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B09N71TSKQ",
+            "url": "https://www.amazon.com/dp/B09N71TSKQ",
+            "position": 47
+        },
+        {
+            "name": "Venus Gillette Venus Simply 3 Sensitive Women's Disposable Razors, 4 Count",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81CJvmp+9iL._AC_UL320_.jpg",
+                "description": "Venus Gillette Venus Simply 3 Sensitive Women's Disposable Razors, 4 Count"
+            },
+            "totalReviews": 68,
+            "rating": 4.25,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 9.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B07KKZ61Q9",
+            "url": "https://www.amazon.com/dp/B07KKZ61Q9",
+            "position": 48
+        },
+        {
+            "name": "Schick Hydro Silk Razor for Women, Includes 2 Moisturizing Razor Blade Refills",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/81t4sjyJi6L._AC_UL320_.jpg",
+                "description": "Schick Hydro Silk Razor for Women, Includes 2 Moisturizing Razor Blade Refills"
+            },
+            "totalReviews": 2714,
+            "rating": 4.45,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 14.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B006DR2BEW",
+            "url": "https://www.amazon.com/dp/B006DR2BEW",
+            "position": 49
+        },
+        {
+            "name": "Schick Intuition Pure Nourishment Womens Razor Refills with Coconut Milk and Almond Oil, Pack of 3",
+            "leftInStock": "",
+            "image": {
+                "url": "https://m.media-amazon.com/images/I/71VryFTnj1L._AC_UL320_.jpg",
+                "description": "Schick Intuition Pure Nourishment Womens Razor Refills with Coconut Milk and Almond Oil, Pack of 3"
+            },
+            "totalReviews": 545,
+            "rating": 4.75,
+            "sponsored": false,
+            "amazonChoice": false,
+            "bestSeller": false,
+            "amazonPrime": false,
+            "price": {
+                "discounted": false,
+                "priceSymbol": "$",
+                "currentPrice": 11.99,
+                "priceFraction": "99",
+                "beforePrice": null
+            },
+            "asin": "B00AE5FF4M",
+            "url": "https://www.amazon.com/dp/B00AE5FF4M",
+            "position": 50
+        }
+    ],
+    "categories": [
+        {
+            "name": "Shaving & Hair Removal Products",
+            "categoryLink_url": "https://www.amazon.com//s?k=razor&rh=n%3A6371179011&dc&language=en_US&qid=1678604798&rnid=5264023011&ref=sr_nr_n_1&ds=v1%3Af94syDTnfYp%2FuiKLKldkTBPvuro6BByul%2B4L5Xj1Qc4",
+            "categoryId": "n/6371179011"
+        },
+        {
+            "name": "Women's Disposable Razors",
+            "categoryLink_url": "https://www.amazon.com//s?k=razor&rh=n%3A6371179011%2Cn%3A15452042011&dc&language=en_US&qid=1678604798&rnid=5264023011&ref=sr_nr_n_2&ds=v1%3APaG84IFI2pJdFpS72E4C6t0To4SP2heEDMEsqGTNriQ",
+            "categoryId": "n/15452042011"
+        },
+        {
+            "name": "Men's Razor Cartridges & Refills",
+            "categoryLink_url": "https://www.amazon.com//s?k=razor&rh=n%3A6371179011%2Cn%3A15452038011&dc&language=en_US&qid=1678604798&rnid=5264023011&ref=sr_nr_n_3&ds=v1%3Amg2kLa0CjPAfGfNCu199mL3a1pqn75Fst2GOOeD5F7I",
+            "categoryId": "n/15452038011"
+        },
+        {
+            "name": "Men's Disposable Razors",
+            "categoryLink_url": "https://www.amazon.com//s?k=razor&rh=n%3A6371179011%2Cn%3A15452039011&dc&language=en_US&qid=1678604798&rnid=5264023011&ref=sr_nr_n_4&ds=v1%3Aa%2FjcE%2Bxz0ejTZ5afkoYHpYapG2RgFDUeBvhPnV%2B6JAA",
+            "categoryId": "n/15452039011"
+        },
+        {
+            "name": "Men's Safety Razors",
+            "categoryLink_url": "https://www.amazon.com//s?k=razor&rh=n%3A6371179011%2Cn%3A16735363011&dc&language=en_US&qid=1678604798&rnid=5264023011&ref=sr_nr_n_5&ds=v1%3AZVZjFuS6KDJbdG1W0Y1A8nt2K%2BTVa3N8WBR7GnENueA",
+            "categoryId": "n/16735363011"
+        },
+        {
+            "name": "Women's Razor Cartridges & Refills",
+            "categoryLink_url": "https://www.amazon.com//s?k=razor&rh=n%3A6371179011%2Cn%3A15452041011&dc&language=en_US&qid=1678604798&rnid=5264023011&ref=sr_nr_n_6&ds=v1%3Aw%2F6tyonIdlwojU2IKzHQ5buH3MK%2FaHM%2F7B6yglY250c",
+            "categoryId": "n/15452041011"
+        },
+        {
+            "name": "Men's Rotary Shavers",
+            "categoryLink_url": "https://www.amazon.com//s?k=razor&rh=n%3A6371179011%2Cn%3A6371200011&dc&language=en_US&qid=1678604798&rnid=5264023011&ref=sr_nr_n_7&ds=v1%3A%2Bd3%2FVlqs3iq4LeiUHS8sEq1cpuKB%2FI4uq8f6hwDYFO8",
+            "categoryId": "n/6371200011"
+        },
+        {
+            "name": "Hair Clippers & Accessories",
+            "categoryLink_url": "https://www.amazon.com//s?k=razor&rh=n%3A6371221011&dc&language=en_US&qid=1678604798&rnid=5264023011&ref=sr_nr_n_8&ds=v1%3Aas0M0rPuUkbjFSKDht2ow%2BW7rmvBWMB994wWoGRGFK8",
+            "categoryId": "n/6371221011"
+        }
+    ]
+}
