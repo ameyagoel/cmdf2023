@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "cohere": "^1.1.1",
-    "cohere-ai": "^6.0.0"
+    "cohere-ai": "^6.0.0",
+    "react-grid-system": "^8.1.9"
   }
 }

@@ -13,7 +13,6 @@ function App() {
   return (
     <div >
       <Landing></Landing>
-      <Summary></Summary>
     </div>
   );
 }

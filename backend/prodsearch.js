@@ -47,34 +47,34 @@ const extractASIN = function (a) {
 }
 
 // API to extract detailed information about a product from the input URL including title, price, etc
-// const prodInfo = {
-//   method: 'GET',
-//   url: 'https://amazon-pricing-and-product-info.p.rapidapi.com/',
-//   params: { asin: extractASIN(getURL), domain: extractDomain(getURL) },
-//   headers: {
-//     'X-RapidAPI-Key': '50d928d747mshe8499f4023b1fdfp1a84c6jsna17e28836eee',
-//     'X-RapidAPI-Host': 'amazon-pricing-and-product-info.p.rapidapi.com'
-//   }
-// };
+const prodInfo = {
+  method: 'GET',
+  url: 'https://amazon-pricing-and-product-info.p.rapidapi.com/',
+  params: { asin: extractASIN(getURL), domain: extractDomain(getURL) },
+  headers: {
+    'X-RapidAPI-Key': '50d928d747mshe8499f4023b1fdfp1a84c6jsna17e28836eee',
+    'X-RapidAPI-Host': 'amazon-pricing-and-product-info.p.rapidapi.com'
+  }
+};
 
 // write prodInfo to JSON (product.json)
-// axios.request(prodInfo).then(function (response) {
-//   let data = JSON.stringify(response.data);
-//   fs.writeFileSync('product.json', data);
-// }).catch(function (error) {
-//   console.error(error);
-// });
+axios.request(prodInfo).then(function (response) {
+  let data = JSON.stringify(response.data);
+  fs.writeFileSync('product.json', data);
+}).catch(function (error) {
+  console.error(error);
+});
 
 // API to extract search results by page according to a given keyword (1st page of results)
-// const keywordResults = {
-//   method: 'GET',
-//   url: 'https://amazon-web-scraping-api.p.rapidapi.com/products/search',
-//   params: { criteria: search, page: '1', countryCode: 'CA', languageCode: 'EN' },
-//   headers: {
-//     'X-RapidAPI-Key': '50d928d747mshe8499f4023b1fdfp1a84c6jsna17e28836eee',
-//     'X-RapidAPI-Host': 'amazon-web-scraping-api.p.rapidapi.com'
-//   }
-// };
+const keywordResults = {
+  method: 'GET',
+  url: 'https://amazon-web-scraping-api.p.rapidapi.com/products/search',
+  params: { criteria: "Shampoo", page: '1', countryCode: 'CA', languageCode: 'EN' },
+  headers: {
+    'X-RapidAPI-Key': '50d928d747mshe8499f4023b1fdfp1a84c6jsna17e28836eee',
+    'X-RapidAPI-Host': 'amazon-web-scraping-api.p.rapidapi.com'
+  }
+};
 
 // console log keywordResults
 // axios.request(keywordResults).then(function (response3) {

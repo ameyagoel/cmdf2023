@@ -32,7 +32,8 @@ const Landing = () => {
                 <Product></Product>
             </Col>
             <Col>
-                <img src={peach1} className='peach1' />
+            <img src={peach1} alt={"peach1"} className='peach1' />
+          
             </Col>
         </Row>
         <Row style={{alignItems:'center'}}>
