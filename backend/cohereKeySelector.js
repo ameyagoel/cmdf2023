@@ -4,15 +4,18 @@ const prodsearch = require("./prodsearch");
 
 cohere.init('KuUGZnMPt1xOu89Lsb9s72Z3TG5Bh8Nff3fG986T');
 
-var title = "a";
+var title = "";
 var keyword = "";
 
 // calls prodsearch function
 const setTitle = function(title1) {
   title = title1;
+  console.log("in set title");
+  console.log(title);
 }
 
-const getTitle = function() {
+const getTitle = () => {
+
   return String(title);
 }
 
@@ -25,15 +28,15 @@ async function getData(url) {
       console.error(error);
     }
   }
-(async () => {
-    const response = await cohere.classify({
-      model: 'f1aeace0-4292-466e-9695-0a04c16948da-ft',
-      inputs: [getTitle()]
-    });
-    console.log(title);
-    // console.log(JSON.stringify(response.body.classifications[0].prediction));
-    return JSON.stringify(response.body.classifications[0].prediction);
-  })();
+  // cohere model to classify it is women or not 
+// (async () => {
+//     const response = await cohere.classify({
+//       model: 'f1aeace0-4292-466e-9695-0a04c16948da-ft',
+//       inputs: [getTitle()]
+//     });
+//     // console.log(JSON.stringify(response.body.classifications[0].prediction));
+//     return JSON.stringify(response.body.classifications[0].prediction);
+//   })();
 
 let productExamples = [
 ["Razor", "Gillette Venus Extra Smooth Swirl Women's Razor - 1 Handle + 4 Refills, Purple"],
@@ -62,8 +65,11 @@ const makePrompt = function(example, examples, example_labels, labels, task_desc
 };
 
 
-(async () => {
-    const prompt = makePrompt(getTitle(), productExamples.map((e) => e[1]), productExamples.map(e => e[0]), [], "", "extract the movie title from the post:");
+const getKeyword = async function() {
+    console.log("here");
+    console.log(title);
+
+    const prompt = makePrompt(title, productExamples.map((e) => e[1]), productExamples.map(e => e[0]), [], "", "extract the movie title from the post:");
     const extraction = await cohere.generate({
       model: 'command-medium-nightly',
       prompt: prompt,
@@ -71,11 +77,11 @@ const makePrompt = function(example, examples, example_labels, labels, task_desc
       temperature: 0.1,
       stop: "\n"
     });
+    // console.log(getTitle());
+    console.log("makePrompt")
+    console.log(getTitle());
     console.log(extraction["body"]["generations"][0].text.trim())
     keyword = extraction["body"]["generations"][0].text.trim();
-  })()
-
-const getKeyword = function() {
-  return keyword;
+    return keyword;
 }
 module.exports = { setTitle, getKeyword }
