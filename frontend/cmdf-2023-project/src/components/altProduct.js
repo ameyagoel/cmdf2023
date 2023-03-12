@@ -43,8 +43,10 @@ const Text = styled.p`
   color: #0F3591;
   `
 const PinkBox = styled.div`
-  margin-left: 1rem;
-  background-color: #F6C0D3;
+  margin-left: 9rem;
+
+  background-size:contain;
+  background-image: url(https://m.media-amazon.com/images/I/81L-Nl7NxJL._AC_SL1500_.jpg);
   min-width: 18rem;
   min-height: 11rem;
   border-radius: 10px;
@@ -93,6 +95,10 @@ export const AltProduct = ({itemName, price, moneySaved}) => {
     const newIndex = index + 1;
     setIndex(newIndex >= length ? 0 : newIndex);
   };
+
+itemName = 'OGX Extra Strength Refreshing Scalp + Tea Tree Mint Shampoo';
+price = 9.16;
+moneySaved = 16.99 - 9.16;
 
 
   return (

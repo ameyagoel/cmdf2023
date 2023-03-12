@@ -38,9 +38,12 @@ const Text = styled.p`
   color: #0F3591;
   `
 const PinkBox = styled.div`
-  margin-left: 1rem;
-  background-color: #F6C0D3;
-  min-width: 18rem;
+margin-left: 8rem;
+
+background-image: url(https://m.media-amazon.com/images/I/614EIw7KNBL._AC_SL1200_.jpg);
+background-size:contain;  
+
+min-width: 18rem;
   min-height: 11rem;
   border-radius: 10px;
 `;
@@ -67,8 +70,13 @@ const OuterContainer = styled.div`
 
 // `<PinkBox />
 
-export const Product = ({itemName, price, moneySaved}) => {
-    return (
+export const Product = ({itemName, price, pinktax}) => {
+  
+  itemName = 'Shea Moisture Curl & Shine Shampoo';
+  price = 16.99;
+  pinktax = 'Yes';
+  
+  return (
         <div>
             <OuterContainer>
             <Container>
@@ -76,7 +84,7 @@ export const Product = ({itemName, price, moneySaved}) => {
             <Subtitle>Product Details </Subtitle>
             <Text>Item Name: {itemName}</Text>
             <Text>Price: {price} </Text>
-            <Text>Pink Tax: {moneySaved}</Text>
+            <Text>Pink Tax: {pinktax}</Text>
             </Container>
             <PinkBox />
             </OuterContainer>

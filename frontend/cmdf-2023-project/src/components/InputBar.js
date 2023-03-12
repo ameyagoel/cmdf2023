@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+
 
 const Input = styled.input`
   font-size: 1.2rem;
@@ -39,7 +41,14 @@ export const InputBar = () => {
     const [url, setUrl] = useState("");
 
     const handleClick = () => {
-        return(
+
+        // <Link
+        //     to={{
+        //         pathname: "/summary",
+        //         state: [{itemName: 'Headphones', itemPrice: 49.99}]
+        //     }}
+        // ></Link>
+        return (
             // this is where we would send the amzn url to the backend
             console.log(url)
         )
