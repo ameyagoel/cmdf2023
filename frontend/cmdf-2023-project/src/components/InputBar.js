@@ -1,10 +1,12 @@
 import React, {useState} from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+
 
 const Input = styled.input`
   font-size: 1.2rem;
   padding: .8rem;
-  
+  background-color: transparent;
   margin-top: 6rem;
   border-color: #CC719E;
   border-radius: 3rem;
@@ -31,7 +33,6 @@ const StyledButton = styled.button`
 
 const Wrapper = styled.section`
     padding: 0em;
-    
     background-color: transparent
 `
 
@@ -39,7 +40,17 @@ export const InputBar = () => {
     // get amzn url from here
     const [url, setUrl] = useState("");
 
+
     async function handleClick() {
+    const handleClick = () => {
+
+        // <Link
+        //     to={{
+        //         pathname: "/summary",
+        //         state: [{itemName: 'Headphones', itemPrice: 49.99}]
+        //     }}
+        // ></Link>
+        return (
             // this is where we would send the amzn url to the backend
     //   await fetch(`http://localhost:3005/api/keyword`)
     //   .then((res) => res.json())
