@@ -42,7 +42,6 @@ export const InputBar = () => {
 
 
     async function handleClick() {
-    const handleClick = () => {
 
         // <Link
         //     to={{
@@ -50,7 +49,7 @@ export const InputBar = () => {
         //         state: [{itemName: 'Headphones', itemPrice: 49.99}]
         //     }}
         // ></Link>
-        return (
+     
             // this is where we would send the amzn url to the backend
     //   await fetch(`http://localhost:3005/api/keyword`)
     //   .then((res) => res.json())
@@ -61,6 +60,7 @@ export const InputBar = () => {
       .then((res) => res.json())
       .then((data) => console.log(data)) // Sets variable data to fetched JSON data
       .catch((err) => console.log(err));  
+        
   
     }
     
@@ -79,4 +79,3 @@ export const InputBar = () => {
     );
 
 }
-
