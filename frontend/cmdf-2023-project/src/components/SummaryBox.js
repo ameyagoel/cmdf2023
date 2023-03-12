@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { AddButton } from "./AddButton";
 import Landing from "./landing";
 import { TotalSavingTextBox } from "./TotalSavingTextBox";
+import { Link } from "react-router-dom";
+
 const BorderContainer = styled.div`
     display: flex;
 `
@@ -53,13 +55,19 @@ const Subtitle = styled.h1`
     {itemName: 'Razor', itemPrice: 1.49},
     {itemName: 'Deodorant', itemPrice: 2.99},
     {itemName: 'Headphones', itemPrice: 29.50},
+    
 
 
   ];
+
+ 
  
 
 export const SummaryBox = ({totalLeft, totalRight}) => {
 
+
+    
+    // itemArrayAlt.append(this.props.location.state);
     
    
     totalLeft = Number(((itemArrayPink.reduce((a,v) =>  a = a + v.itemPrice , 0 )).toFixed(3)));
@@ -68,6 +76,7 @@ export const SummaryBox = ({totalLeft, totalRight}) => {
 
 
     return(
+        
         <div>
         <BorderContainer>
              <OuterContainer roundTopLeft={true} roundBottomLeft={true}>

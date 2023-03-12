@@ -21,7 +21,6 @@ const StyledButton = styled.button`
 
 
 export const AddButton = ({text, textColor, borderColor, bgColor}) => {
-    const [itemList, setInputList] = useState([]);
 
   
 
