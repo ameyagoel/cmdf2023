@@ -4,7 +4,7 @@ import "./summary.css"
 
 
 import bg from './../assets/bg2.png'
-import peach1 from './../assets/dog1.png'
+import peach2 from './../assets/dog2.png'
 
 
 import ScrollBar from './scrollBar'
@@ -17,15 +17,14 @@ import { TotalSavingTextBox } from './TotalSavingTextBox'
 
 const Summary = () => {
   return (
-    <div id='1' className='boxSummary' style={{ minHeight: '100vh', marginTop: '0rem' }}>
+    <div id='2' className='boxSummary' style={{ minHeight: '100vh', marginTop: '0rem' }}>
 
       <Container className='summary' style={{ margin: 'auto', alignContent: 'center' }}>
         <h1 className='summaryText'> Your Summary</h1>
         <Col style={{alignItems:'center'}}>
           <SummaryBox ></SummaryBox>
-          <TotalSavingTextBox ></TotalSavingTextBox>
         </Col>
-
+        <img src={peach2} className='peach2' />
 
 
 

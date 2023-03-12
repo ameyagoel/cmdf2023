@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Input = styled.input`
   font-size: 1.2rem;
   padding: .8rem;
-  
+  background-color: transparent;
   margin-top: 6rem;
   border-color: #CC719E;
   border-radius: 3rem;
@@ -31,7 +31,6 @@ const StyledButton = styled.button`
 
 const Wrapper = styled.section`
     padding: 0em;
-    
     background-color: transparent
 `
 
