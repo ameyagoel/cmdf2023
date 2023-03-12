@@ -1,12 +1,14 @@
 const ps = require("./prodsearch")
 const cks = require("./cohereKeySelector");
 
-const main = function (url) {
+const main = async function (url) {
     ps.getURL(url);
     var title = ps.extractTitle();
-    // console.log(title);
+    console.log("in main")
+    console.log(title);
     cks.setTitle(title);
-    var keyword = cks.getKeyword();
+    var keyword = await cks.getKeyword();
+    console.log(keyword);
     ps.getSearch(keyword);
 }
 

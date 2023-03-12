@@ -88,6 +88,8 @@ const extractTitle = function() {
   let json = fs.readFileSync('product.json');
   let obj = JSON.parse(json);
   title = obj.responseData.title;
+  console.log("in extractTitle");
+  console.log(title);
   return String(obj.responseData.title);
 };
 
