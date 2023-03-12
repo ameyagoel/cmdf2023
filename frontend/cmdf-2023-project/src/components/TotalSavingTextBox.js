@@ -4,13 +4,13 @@ import styled from "styled-components";
 const OuterContainer = styled.div`
     text-align: center;
     align-items: center;
-    display: flex;
     justify-content: center;
     border-radius: 10px;
-    width: 30em;
-    height: 4em;
-    background-color: #e0adc6;
-    position: relative;
+    margin: auto;
+    margin-top: 2rem;
+    width: 24em;
+    height: 3.5em;
+    background-color: #fff;
     padding-top: 1em; 
 `
 const Heading = styled.h1`
@@ -18,6 +18,8 @@ const Heading = styled.h1`
   text-align: center;
   line-height: 1.1;
   font-weight: 600;
+  padding-top: .5rem;
+  margin: auto;
   color: #CC719E;
   `
 
@@ -25,7 +27,7 @@ const Heading = styled.h1`
 export const TotalSavingTextBox = ({total}) => {
     return(
         <OuterContainer>
-        <Heading>Total Saved: {total} </Heading>        
+        <Heading>Total Saved: {total}$</Heading>        
         </OuterContainer>
 
     );

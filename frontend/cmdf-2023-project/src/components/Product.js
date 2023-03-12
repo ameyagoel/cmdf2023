@@ -39,8 +39,8 @@ const Text = styled.p`
   `
 const PinkBox = styled.div`
   margin-left: 1rem;
-  background-color: pink;
-  min-width: 11rem;
+  background-color: #F6C0D3;
+  min-width: 18rem;
   min-height: 11rem;
   border-radius: 10px;
 `;
@@ -55,7 +55,7 @@ const OuterContainer = styled.div`
     padding-right: 1rem;
     padding-left: 2rem;
     grid-template-columns: 1fr 1fr;
-    max-width: 30rem;
+    min-width: 40rem;
     max-height: 3.5rem;
     box-shadow: 5px 5px 8px rgb(0 0 0 / 0.2);
 

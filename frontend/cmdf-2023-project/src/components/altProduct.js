@@ -1,5 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import { useState } from 'react';
+import next from './../assets/next.png';
+import prev from './../assets/prev.png';
+
 
 // need props for:
 // Item Name 
@@ -12,7 +16,7 @@ const Container = styled.div`
 
 const Heading = styled.h1`
   min-width: 15rem;
-  margin-right: 1rem;
+  margin-right: 3rem;
 
   font-size: 2rem;
   line-height: 1.1rem;
@@ -28,6 +32,7 @@ const Heading = styled.h1`
 const Subtitle = styled.h1`
   max-width: 440px;
   font-size: 1.6rem;
+  margin-right:4rem;
   line-height: 1rem;
   color: #0F3591;
   `
@@ -39,8 +44,8 @@ const Text = styled.p`
   `
 const PinkBox = styled.div`
   margin-left: 1rem;
-  background-color: pink;
-  min-width: 11rem;
+  background-color: #F6C0D3;
+  min-width: 18rem;
   min-height: 11rem;
   border-radius: 10px;
 `;
@@ -55,7 +60,7 @@ const OuterContainer = styled.div`
     padding-right: 1rem;
     padding-left: 2rem;
     grid-template-columns: 1fr 1fr;
-    max-width: 30rem;
+    min-width: 40rem;
     max-height: 3.5rem;
     margin-top: 2rem;
     box-shadow: 5px 5px 8px rgb(0 0 0 / 0.2);
@@ -68,18 +73,42 @@ const OuterContainer = styled.div`
 
 // `<PinkBox />
 
+
+
+
+
+
 export const AltProduct = ({itemName, price, moneySaved}) => {
-    return (
-        <div>
-            <OuterContainer>
-            <Container>
-            <Subtitle>Alternate Items </Subtitle>
+  
+
+  const [index, setIndex] = useState(0); 
+  const length = 3;
+
+  const prevSlide = () => {
+    const newIndex = index - 1;
+    setIndex(newIndex < 0 ? length - 1 : newIndex);
+  };
+
+  const nextSlide = () => {
+    const newIndex = index + 1;
+    setIndex(newIndex >= length ? 0 : newIndex);
+  };
+
+
+  return (
+    <div>
+      <OuterContainer>
+        <Container>
+          <Subtitle>Alternate Item </Subtitle>
             <Text>Item Name: {itemName}</Text>
             <Text>Price: {price} </Text>
             <Text>Money Saved: {moneySaved}</Text>
-            </Container>
-            <PinkBox />
-            </OuterContainer>
-        </div>
-    )
+        </Container>
+        <PinkBox />
+      </OuterContainer>
+    </div>
+  )
 }
+
+
+

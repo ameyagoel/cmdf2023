@@ -7,10 +7,10 @@
 }
 
 .justpeachy  {
-    margin-top: 6rem;
+    margin-top: 4.5rem;
     margin-bottom: 1rem;
     margin-left: 3rem;
-    font-family: 'Inter';
+    font-family: 'Gotham';
     font-style: normal;
     font-weight: 700;
     font-size: 4rem;
@@ -23,16 +23,26 @@
 
 
 .peach1 {
-    height: 13rem;
+    height: 16rem;
     width: auto;
-    margin-left: 1rem;
+    margin: auto;
+    margin-left: 2rem;
 }
 
+.img:hover .peach2hover {
 
+    display: inline;
+    
+}
 
+.peach2hover {
+    position: absolute;
+    height: 19rem;
+    width: 13rem;
+   right: 9.1rem;
+    bottom: -1.6rem;
+    display: none;
 
-
-
-
+}
 
 

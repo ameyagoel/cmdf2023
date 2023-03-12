@@ -1,12 +1,11 @@
 
 
-.boxSummary {
-    background-Image: url(../assets/bg2.png);
+.boxResources {
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.summaryText  {
+.resourcesText  {
     margin-bottom: 1rem;
     margin-left: 3rem;
     font-family: 'Gotham';
@@ -14,25 +13,25 @@
     font-weight: 700;
     font-size: 4rem;
     line-height: 91px;
-    color: #fff;
+    color: #CC719E;
     padding-top: 2rem;
-    /* justpeachy */
+    
 }
 
 
-.peach2 {
+.bottom {
     position: absolute;
-    bottom: -2rem;
-    right: -3rem;
+    align-items: last baseline;
+    right: 0;
+    max-height: 7.5rem;
+    width: 100vw;
+}
+
+
+.peach3 {
+    position: absolute;
+    bottom: -95rem;
+    right: 1rem;
     height: 16rem;
     width: auto;
 }
-
-
-
-
-
-
-
-
-
