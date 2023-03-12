@@ -2,10 +2,19 @@
 const cohere = require("cohere-ai");
 const prodsearch = require("./prodsearch");
 
-// calls prodsearch function
-var title = prodsearch.extractTitle();
-
 cohere.init('KuUGZnMPt1xOu89Lsb9s72Z3TG5Bh8Nff3fG986T');
+
+var title = "a";
+var keyword = "";
+
+// calls prodsearch function
+const setTitle = function(title1) {
+  title = title1;
+}
+
+const getTitle = function() {
+  return String(title);
+}
 
 async function getData(url) {
     try {
@@ -19,10 +28,10 @@ async function getData(url) {
 (async () => {
     const response = await cohere.classify({
       model: 'f1aeace0-4292-466e-9695-0a04c16948da-ft',
-      inputs: [title]
+      inputs: [getTitle()]
     });
     console.log(title);
-    console.log(JSON.stringify(response.body.classifications[0].prediction));
+    // console.log(JSON.stringify(response.body.classifications[0].prediction));
     return JSON.stringify(response.body.classifications[0].prediction);
   })();
 
@@ -52,11 +61,9 @@ const makePrompt = function(example, examples, example_labels, labels, task_desc
     return prompt;
 };
 
-var example = "Samsung Galaxy Tab A7 lite 32GB Mystic Grey";
-
 
 (async () => {
-    const prompt = makePrompt(example, productExamples.map((e) => e[1]), productExamples.map(e => e[0]), [], "", "extract the movie title from the post:");
+    const prompt = makePrompt(getTitle(), productExamples.map((e) => e[1]), productExamples.map(e => e[0]), [], "", "extract the movie title from the post:");
     const extraction = await cohere.generate({
       model: 'command-medium-nightly',
       prompt: prompt,
@@ -65,6 +72,10 @@ var example = "Samsung Galaxy Tab A7 lite 32GB Mystic Grey";
       stop: "\n"
     });
     console.log(extraction["body"]["generations"][0].text.trim())
-    return extraction["body"]["generations"][0].text.trim();
+    keyword = extraction["body"]["generations"][0].text.trim();
   })()
 
+const getKeyword = function() {
+  return keyword;
+}
+module.exports = { setTitle, getKeyword }

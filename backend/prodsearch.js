@@ -12,10 +12,18 @@ const fs = require("fs");
 
 // TODO: Invalid input and/or incomplete URL handling
 // get url from user input -- front end
-var getURL = 'https://www.amazon.ca/Gillette-Venus-ComfortGlide-Scented-Refills/dp/B001JQLNFA/ref=sr_1_31?crid=2Z7OE9Y35QEPR&keywords=razor&qid=1678601115&s=beauty&sprefix=raz%2Cbeauty%2C648&sr=1-31';
+var url = "";
 var searchLimit = 4;
-var searchBar = 'razor';
+var search = "";
 var title = "";
+
+const getURL = function(urla) {
+  url = urla;
+}
+
+const getSearch = function(keyword) {
+  search = keyword;
+}
 
 // split url string according to the character '/' to extract individual strings to an array
 const splitURL = function (a) {
@@ -61,7 +69,7 @@ const extractASIN = function (a) {
 // const keywordResults = {
 //   method: 'GET',
 //   url: 'https://amazon-web-scraping-api.p.rapidapi.com/products/search',
-//   params: { criteria: searchBar, page: '1', countryCode: 'CA', languageCode: 'EN' },
+//   params: { criteria: search, page: '1', countryCode: 'CA', languageCode: 'EN' },
 //   headers: {
 //     'X-RapidAPI-Key': '50d928d747mshe8499f4023b1fdfp1a84c6jsna17e28836eee',
 //     'X-RapidAPI-Host': 'amazon-web-scraping-api.p.rapidapi.com'
@@ -80,7 +88,7 @@ const extractTitle = function() {
   let json = fs.readFileSync('product.json');
   let obj = JSON.parse(json);
   title = obj.responseData.title;
-  return obj.responseData.title;
+  return String(obj.responseData.title);
 };
 
 const extractPrice = function() {
@@ -89,8 +97,8 @@ const extractPrice = function() {
   return obj.responseData.soldByAmazonPrice;
 };
 
-console.log(extractTitle());
-console.log(extractPrice());
+// console.log(extractTitle());
+// console.log(extractPrice());
 
 const sortArr = function() {
   let json = fs.readFileSync('search.json');
@@ -131,8 +139,18 @@ const extractImgURL = function() {
   return img;
 }
 
+const comparePrice = function() {
+  if(extractPrice() > extractPrices()[0]) {
+    return extractPrice() - extractPrices()[0];
+  } else {
+    return false;
+  }
+}
+
+console.log()
 console.log(sortArr());
 console.log(extractTitleArray());
 console.log(extractPrices());
 console.log(extractImgURL());
-module.exports = { extractTitle }
+console.log(comparePrice());
+module.exports = { getURL, extractTitle, getSearch }
