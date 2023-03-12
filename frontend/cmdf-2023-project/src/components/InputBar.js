@@ -23,6 +23,10 @@ const StyledButton = styled.button`
   color: white;
   border-radius: 3rem;  
   margin-left: 1rem;
+  &:hover {
+    background-color: #F7C5D6;
+    color: #fff;
+  }
 `;
 
 const Wrapper = styled.section`

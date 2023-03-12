@@ -11,11 +11,17 @@ const StyledButton = styled.button`
   width: 10em;
   height: 3em;
   align-items: center;
+  &:hover {
+    background-color: #CC719E;
+    color: #fff;
+  }
 `;
+
+
 
 export const AddButton = ({text, textColor, borderColor, bgColor}) => {
     return (
-        <StyledButton bgColor={bgColor} textColor={textColor} borderColor={borderColor}>
+        <StyledButton  bgColor={bgColor} textColor={textColor} borderColor={borderColor}>
             {text}
         </StyledButton>
 
