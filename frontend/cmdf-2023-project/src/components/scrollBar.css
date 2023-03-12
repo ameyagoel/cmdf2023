@@ -1,0 +1,57 @@
+.scroll1 {
+    background-image:  url(./../assets/scroll1.png);
+    width: 2rem;
+    height: 2rem;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem;
+    position: fixed;
+    top: 30%;
+    left: 2%;
+    margin-left: 1%;
+    margin-bottom: 2rem;
+    border-radius: 1.5rem;
+    
+}
+
+.scroll2 {
+    background-image:  url(./../assets/scroll2.png);
+    width: 2rem;
+    height: 2rem;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem;
+    position: fixed;
+    top: 45%;
+    left: 2%;
+    margin-left: 1%;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    
+}
+
+.scroll3 {
+    background-image:  url(./../assets/scroll3.png);
+    width: 2rem;
+    height: 2rem;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem;
+    position: fixed;
+    top: 60%;
+    left: 2%;
+    margin-left: 1%;
+   
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    
+
+}
+
+
+a:hover {
+   filter: drop-shadow(5px 5px 15px #F6C0D3);
+}

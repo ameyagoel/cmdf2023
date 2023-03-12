@@ -1,0 +1,36 @@
+
+
+.boxSummary {
+    background-Image: url(../assets/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.summaryText  {
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 91px;
+    color: #fff;
+    padding-top: 2rem;
+    /* justpeachy */
+}
+
+
+.peach1 {
+    height: 13rem;
+    width: auto;
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+
+
+
