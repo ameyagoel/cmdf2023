@@ -4,7 +4,7 @@ import styled from "styled-components";
 const OuterContainer = styled.div`
     text-align: center;
     align-items: center;
-    dispaly: flex;
+    display: flex;
     justify-content: center;
     border-radius: 10px;
     width: 30em;

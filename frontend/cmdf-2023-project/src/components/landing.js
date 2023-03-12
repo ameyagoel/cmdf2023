@@ -15,7 +15,7 @@ import { AddButton } from './AddButton'
 
 const Landing = () => {
   return (
-    <div id='1' className='boxLanding' style={{height:'100vh', marginTop:'0rem'}}>
+    <div id='1' className='boxLanding' style={{minHeight:'100vh', marginTop:'0rem'}}>
        
       <Container className='product' style={{margin:'auto'}}>
         

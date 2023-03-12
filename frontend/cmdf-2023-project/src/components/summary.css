@@ -1,13 +1,12 @@
 
 
-.boxLanding {
-    background-Image: url(../assets/bg1.png);
-    background-size: contain;
+.boxSummary {
+    background-Image: url(../assets/bg2.png);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-.justpeachy  {
-    margin-top: 6rem;
+.summaryText  {
     margin-bottom: 1rem;
     margin-left: 3rem;
     font-family: 'Inter';
@@ -15,9 +14,8 @@
     font-weight: 700;
     font-size: 4rem;
     line-height: 91px;
-    background: -webkit-linear-gradient(180deg, #F0A395 0%, #F7C5D6 75.89%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #fff;
+    padding-top: 2rem;
     /* justpeachy */
 }
 
