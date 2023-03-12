@@ -5,11 +5,11 @@ const BorderContainer = styled.div`
     display: flex;
 `
 const OuterContainer = styled.div`
-    text-align: center;
     align-items: center;
     padding: 5em;
-    width: 20em;
+    width: 25em;
     height: 20em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     background-color: #e0adc6;
     border-top-left-radius: ${({ roundTopLeft }) => (roundTopLeft ? '10px' : '0px')};
     border-top-right-radius: ${({ roundTopRight }) => (roundTopRight ? '10px' : '0px')};
@@ -19,20 +19,15 @@ const OuterContainer = styled.div`
 const Container = styled.div`
     justify-content: center;
     margin: auto;
-    text-align: left;
     
 `;
 
 const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 48px;
-  line-height: 1.1;
+  font-size: 32px;
+  line-height: 1.0;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#CC719E' : '#F6C0D3')};
-  
-  @media screen and (max-width: 480px){
-    font-size 32px;
-  }
+  color: #CC719E;
   `
 
 const Subtitle = styled.h1`
@@ -40,31 +35,31 @@ const Subtitle = styled.h1`
   margin-bottom: 35px;
   font-size: 25px;
   line-height: 24px;
-  color: #fff;
+  color: #CC719E;
   `
 
-export const SummaryBox = () => {
+export const SummaryBox = ({totalLeft, totalRight}) => {
 
     return(
         <BorderContainer>
              <OuterContainer roundTopLeft={true} roundBottomLeft={true}>
+             <Heading>Pink Taxed</Heading>
             <Container>
-                <Heading>Pink Tax</Heading>
-        <Subtitle darkText={true}>Item 1                      1.29</Subtitle>
-        <Subtitle darkText={true}>Item 1                      1.29</Subtitle>
-        <Subtitle darkText={true}>Item 1                      1.29</Subtitle>
-        <Subtitle darkText={true}>Item 1                      1.29</Subtitle>
-        
+        <Subtitle darkText={true}>Item 1 ................................... 1.29</Subtitle>
+        <Subtitle darkText={true}>Item 1 ................................... 1.29</Subtitle>
+        <Subtitle darkText={true}>Item 1 ................................... 1.29</Subtitle>
+        <Subtitle darkText={true}>Item 1 ................................... 1.29</Subtitle>
+        <Heading>Total: {totalLeft} </Heading>
         </Container>
         </OuterContainer>
         <OuterContainer roundTopRight={true} roundBottomRight={true}>
+        <Heading>Alternate Items</Heading>
             <Container>
-            <Heading>Alternate Items</Heading>
-        <Subtitle darkText={true}>Item 1                      1.29</Subtitle>
-        <Subtitle darkText={true}>Item 1                      1.29</Subtitle>
-        <Subtitle darkText={true}>Item 1                      1.29</Subtitle>
-        <Subtitle darkText={true}>Item 1                      1.29</Subtitle>
-        
+        <Subtitle darkText={true}>Item 1 ................................... 1.29</Subtitle>
+        <Subtitle darkText={true}>Item 1 ................................... 1.29</Subtitle>
+        <Subtitle darkText={true}>Item 1 ................................... 1.29</Subtitle>
+        <Subtitle darkText={true}>Item 1 ................................... 1.29</Subtitle>
+        <Heading>Total: {totalRight} </Heading>
         </Container>
         </OuterContainer>
         </BorderContainer>
