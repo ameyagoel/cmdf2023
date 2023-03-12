@@ -7,16 +7,17 @@ import styled from "styled-components";
 // Pink Tax 
 
 const Container = styled.div`
-  align-items: center;
-  padding: 3em;
 
 `;
 
 const Heading = styled.h1`
-  margin-bottom: 24px;
-  font-size: 48px;
-  line-height: 1.1;
-  font-weight: 600;
+  min-width: 15rem;
+  margin-right: 1rem;
+
+  font-size: 2rem;
+  line-height: 1.1rem;
+  font-weight: 700;
+  font-style: italic;
   color: ${({ lightText }) => (lightText ? '#CC719E' : '#F6C0D3')};
   
   @media screen and (max-width: 480px){
@@ -26,34 +27,38 @@ const Heading = styled.h1`
 
 const Subtitle = styled.h1`
   max-width: 440px;
-  margin-bottom: 35px;
-  font-size: 25px;
-  line-height: 24px;
-  color: ${({ darkText }) => (darkText ? '#CC719E' : '#fff')};
+  font-size: 1.6rem;
+  line-height: 1rem;
+  color: #0F3591;
   `
 const Text = styled.p`
-  max-width: 200px;
-  margin-bottom: 35px;
-  font-size: 18px;
-  line-height: 24px;
-  color: '#CC719E';
+  min-width: 4rem;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #0F3591;
   `
 const PinkBox = styled.div`
+  margin-left: 1rem;
   background-color: pink;
-  width: 300px;
-  height: 300px;
+  min-width: 11rem;
+  min-height: 11rem;
+  border-radius: 10px;
 `;
 
 const OuterContainer = styled.div`
     display: flex;
+    background-color: #fff;
     align-items: center;
     border: 2px solid #CC719E;
     border-radius: 10px;
-    padding: 5em;
+    padding: 5rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
     grid-template-columns: 1fr 1fr;
-    width: 45em;
-    height: 20em;
-    margin: auto;
+    max-width: 30rem;
+    max-height: 3.5rem;
+    box-shadow: 5px 5px 8px rgb(0 0 0 / 0.2);
+
 
 `
 
@@ -68,10 +73,10 @@ export const Product = ({itemName, price, moneySaved}) => {
             <OuterContainer>
             <Container>
             <Heading lightText="lightText">Pink Tax Found!</Heading>
-            <Subtitle darkText={"darkText"}>Product Details </Subtitle>
+            <Subtitle>Product Details </Subtitle>
             <Text>Item Name: {itemName}</Text>
             <Text>Price: {price} </Text>
-            <Text>Item Name: {moneySaved}</Text>
+            <Text>Pink Tax: {moneySaved}</Text>
             </Container>
             <PinkBox />
             </OuterContainer>
